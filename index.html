@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Portfolio">
     <title>My Portfolio</title>
 </head>
 <body>
@@ -16,9 +18,7 @@
         I love <strong>Travelling</strong> and <strong>Reading novels.</strong><br>
         I want be a Netrwork Engineer and <strong>OC at BDA.</strong>
     </p>
-    
-</body>
-<body>
+
     <h1><strong>Skills and Expertise</strong></h1>
 <h3>
     <p>I am skilled in </p>
@@ -44,17 +44,58 @@
 
 
         <h1>Education and Experience</h1>
-        <table>
+        
+        <table border="1" cellpadding="5" cellspacing="0">
             <thead>
-                <tbody>
-                <tr><th>Institution</th> <th>Degree</th> <th>Duration</th></tr>
-            <tr><td>Ramchandrapur High School and College </td> <td>S.S.C.</td> <td>2018-2019</td></tr>
-
-        <tr> <td>Gabtali Govt. College</td> <td>H.S.C.</td><td>2020-2021</td>
-            </tr>
-        </tbody>
+                <tr>
+                    <th>Institution</td>
+                    <th>Degree</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ramchandrapur High School and College</td>
+                    <td>SSC</td>
+                    <td>2018-2019</td>
+                </tr>
+                <tr>
+                    <td>Gabtali Government College</td>
+                    <td>HSC</td>
+                    <td>2020-2021</td>
+                </tr>
+            </tbody>
         </table>
-    
-    
+
+        <h1>Contact Me</h1>
+        <form action="">
+            <div>
+          <label for="name">Name:</label> 
+           <input type="text" id="name" name="name" required />
+        </div>
+           
+        <div>
+            <label for="email">Email:</label>
+           <input type="email" id="email" name="email" required />
+        </div>
+           
+        <div>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required />
+        </div>
+        
+        <div>
+        <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="25" rows="8"></textarea required>
+        </div>
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </form>
+     
+        <footer>
+            <p>Copyright reserved by &copy; Omor Ali</p>
+            <a href="mailto:omor@gmail.com"> ✉ Email me </a>
+        </footer>
+        
     </body>
 </html>
